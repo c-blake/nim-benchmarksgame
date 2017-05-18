@@ -34,7 +34,7 @@ iterator fastaAsBase4(): int =
 
 proc histo1(ct: ptr CountTable[int64], digits: seq[int8], fL: int) =
   var num = 0
-  let mask = (1 shl (2 * fLs)) - 1
+  let mask = (1 shl (2 * fL)) - 1
   for nDig, digit in digits:
     num = num or digit
     if nDig >= fL:
