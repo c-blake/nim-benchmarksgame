@@ -1,3 +1,5 @@
+# contributed by Charles Blake
+
 proc permutationParity*[SomeInt](p: openArray[SomeInt]): int =
   ## This computes the parity of a permutation
   let n = len(p)

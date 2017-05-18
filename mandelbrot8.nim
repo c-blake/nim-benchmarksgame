@@ -1,3 +1,5 @@
+# contributed by Charles Blake
+
 import os, strutils, threadpool
 
 type float2 = array[2, float] #XXX replace with SSE/AVX things

@@ -1,3 +1,5 @@
+# contributed by Charles Blake
+
 import os, math, strutils, threadpool
 
 proc A(i, j: int): float {.inline.} =

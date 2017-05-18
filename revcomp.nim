@@ -1,3 +1,5 @@
+# contributed by Charles Blake
+
 import algorithm
 
 proc revWr(sq: var string) {.inline.} =

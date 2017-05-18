@@ -1,3 +1,5 @@
+# contributed by Charles Blake
+
 import os, strutils, sequtils, algorithm
 
 proc main() =
